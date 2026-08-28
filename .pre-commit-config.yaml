@@ -32,6 +32,21 @@ repos:
         pass_filenames: false
         require_serial: true
 
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.9.6
+    hooks:
+      - id: prettier
+        name: prettier (docs)
+        files: ^docs/
+        exclude: |
+          (?x)^(
+              docs/package-lock\.json|
+              docs/pnpm-lock\.yaml|
+              docs/public/
+          )
+        additional_dependencies:
+          - prettier@3.9.6
+
   - repo: https://github.com/codespell-project/codespell
     rev: v2.4.3
     hooks:

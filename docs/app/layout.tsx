@@ -4,7 +4,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'rfdetr-ghost — Drop in. Ghost mode.',
-  description: 'A drop-in performance layer for RF-DETR. Same API, optimized fused kernels, up to 5× faster.',
+  description:
+    'A drop-in performance layer for RF-DETR. Same API, optimized fused kernels, up to 5× faster.',
   generator: 'rfdetr-ghost',
   icons: {
     icon: [
