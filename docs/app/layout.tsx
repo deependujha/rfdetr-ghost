@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'rfdetr-ghost — Drop in. Ghost mode.',
+  title: 'rfdetr-ghost',
   description:
     'A drop-in performance layer for RF-DETR. Same API, custom fused kernels, significantly faster inference on GPU.',
   generator: 'rfdetr-ghost',
