@@ -1,4 +1,4 @@
-[](./assets/header.png)
+![rfdetr-ghost](https://raw.githubusercontent.com/deependujha/rfdetr-ghost/refs/heads/main/assets/header.png)
 
 ---
 
