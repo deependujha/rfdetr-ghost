@@ -1,4 +1,8 @@
-# `rfdetr-ghost`
+[](./assets/header.png)
+
+---
+
+# **`rfdetr-ghost`**: A drop-in performance optimization layer for RF-DETR
 
 **rfdetr-ghost** is a drop-in performance optimization layer for [RF-DETR](https://github.com/roboflow/rf-detr).
 
