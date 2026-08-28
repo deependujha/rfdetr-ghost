@@ -1,0 +1,13 @@
+# ------------------------------------------------------------------------
+# RF-DETR Ghost
+# Copyright (c) 2026 Deependu Jha. All Rights Reserved.
+# Licensed under the Apache License, Version 2.0 [see LICENSE for details]
+#
+# This project contains modifications and optimizations to RF-DETR,
+# originally developed by Roboflow:
+# https://github.com/roboflow/rf-detr/
+# ------------------------------------------------------------------------
+
+
+def hello() -> str:
+    return "Hello from rfdetr-ghost!"
