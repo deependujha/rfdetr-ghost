@@ -1,6 +1,6 @@
 [project]
 name = "rfdetr-ghost"
-version = "0.0.1"
+version = "0.0.2"
 description = "A drop-in performance optimization layer for RF-DETR: same API, custom fused CUDA/Triton kernels underneath."
 readme = "README.md"
 authors = [
