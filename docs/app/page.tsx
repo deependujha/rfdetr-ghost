@@ -81,11 +81,20 @@ export default function Page() {
           <a href="#how" onClick={() => setMobileOpen(false)}>
             How it works
           </a>
-          <a href="https://github.com" target="_blank">
+          <a
+            href="https://github.com/deependujha/rfdetr-ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub
           </a>
         </div>
-        <a className="nav-cta" href="https://github.com" target="_blank">
+        <a
+          className="nav-cta"
+          href="https://github.com/deependujha/rfdetr-ghost"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           View on GitHub <ArrowUpRight />
         </a>
         <button
@@ -100,7 +109,7 @@ export default function Page() {
       <section id="overview" className="hero section-grid">
         <div className="hero-copy">
           <div className="eyebrow">
-            <span className="status-dot" /> OPEN SOURCE · CUDA · PYTHON
+            <span className="status-dot" /> OPEN SOURCE · PYTHON
           </div>
           <h1>
             ENTER
@@ -114,7 +123,12 @@ export default function Page() {
             optimized fused kernels and GPU-level performance improvements automatically.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="https://github.com" target="_blank">
+            <a
+              className="button primary"
+              href="https://github.com/deependujha/rfdetr-ghost"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub <ArrowRight size={16} />
             </a>
             <a className="button text-button" href="#benchmarks">
@@ -130,9 +144,7 @@ export default function Page() {
           </div>
         </div>
         <div className="hero-visual">
-          <div className="visual-label">
-            LIVE BENCHMARK <span>EXAMPLE DATA</span>
-          </div>
+          <div className="visual-label">LIVE BENCHMARK</div>
           <div className="speed-number">
             <strong>{count.toFixed(1)}</strong>
             <span>×</span>
@@ -239,7 +251,7 @@ export default function Page() {
           <div className="pipe-node">
             FUSED KERNELS
             <br />
-            <small>TRITON · CUDA</small>
+            <small>CUTEDSL & TRITON</small>
           </div>
           <ArrowDownRight />
           <div className="pipe-node">
@@ -297,7 +309,6 @@ export default function Page() {
             </div>
           ))}
         </div>
-        <div className="example-tag">EXAMPLE DATA · REPLACE WITH YOUR BENCHMARKS</div>
       </section>
 
       <section className="section architecture-section">
@@ -339,7 +350,7 @@ export default function Page() {
           <div className="arch-box">
             GPU
             <strong>
-              CUDA · Triton
+              CUTEDSL & TRITON
               <br />
               fused kernels
             </strong>
@@ -406,22 +417,14 @@ export default function Page() {
             <br />
             <em>the open.</em>
           </h2>
-          <a className="button primary" href="https://github.com" target="_blank">
+          <a
+            className="button primary"
+            href="https://github.com/deependujha/rfdetr-ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Explore the source <ArrowRight size={16} />
           </a>
-        </div>
-        <div className="stats">
-          {[
-            ['1,847', 'GitHub stars'],
-            ['27', 'Contributors'],
-            ['14', 'Releases'],
-            ['96', 'Benchmarks'],
-          ].map(([n, l]) => (
-            <div key={l}>
-              <strong>{n}</strong>
-              <span>{l}</span>
-            </div>
-          ))}
         </div>
         <div className="activity">
           <div className="activity-label">
@@ -447,7 +450,12 @@ export default function Page() {
           <a className="button primary" href="#install">
             Install Ghost <Terminal size={16} />
           </a>
-          <a className="button outline-button" href="https://github.com" target="_blank">
+          <a
+            className="button outline-button"
+            href="https://github.com/deependujha/rfdetr-ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View on GitHub <GitBranch size={16} />
           </a>
         </div>
@@ -462,10 +470,10 @@ export default function Page() {
         </a>
         <span>Same API. Different engine.</span>
         <div>
-          <a href="https://github.com">GitHub</a>
+          <a href="https://github.com/deependujha/rfdetr-ghost">GitHub</a>
           <a href="#install">Documentation</a>
           <a href="#benchmarks">Benchmarks</a>
-          <a href="https://github.com">Issues</a>
+          <a href="https://github.com/deependujha/rfdetr-ghost">Issues</a>
         </div>
         <small>Built for GPUs. Designed for zero migration.</small>
       </footer>

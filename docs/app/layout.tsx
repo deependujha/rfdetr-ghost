@@ -5,24 +5,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'rfdetr-ghost — Drop in. Ghost mode.',
   description:
-    'A drop-in performance layer for RF-DETR. Same API, optimized fused kernels, up to 5× faster.',
+    'A drop-in performance layer for RF-DETR. Same API, custom fused kernels, significantly faster inference on GPU.',
   generator: 'rfdetr-ghost',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
   },
 }
 
