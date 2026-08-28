@@ -934,6 +934,11 @@ footer small {
     grid-template-columns: 1fr;
   }
 
+  .section-grid {
+    background-image: linear-gradient(var(--line) 1px, transparent 1px);
+    background-size: 100% 100%;
+  }
+
   .hero {
     padding-top: 90px;
   }
@@ -955,7 +960,11 @@ footer small {
     align-items: stretch;
   }
 
-  .import-arrow,
+  .import-arrow {
+    align-self: center;
+    transform: rotate(90deg);
+  }
+
   .pipeline > svg {
     align-self: center;
     transform: rotate(45deg);
@@ -1130,6 +1139,19 @@ footer small {
   }
 }
 
+@keyframes arrow-slide-down {
+  0%,
+  100% {
+    transform: rotate(45deg) translateX(-3px);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: rotate(45deg) translateX(3px);
+    opacity: 1;
+  }
+}
+
 @keyframes line-flow {
   to {
     background-position: 0 -200%;
@@ -1225,6 +1247,12 @@ footer small {
 
 .pipeline > svg:nth-child(6) {
   animation-delay: 0.44s;
+}
+
+@media (max-width: 800px) {
+  .pipeline > svg {
+    animation-name: arrow-slide-down;
+  }
 }
 
 .arch-line {
