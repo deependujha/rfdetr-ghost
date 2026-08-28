@@ -36,6 +36,14 @@ repos:
     rev: v2.4.3
     hooks:
       - id: codespell
+        # Regular expression matching files/directories to skip
+        exclude: |
+          (?x)^(
+              node_modules/|
+              .*-lock\.json|
+              .*-lock\.yaml|
+              .*\.min\.js
+          )$
         # args: [--write-changes]
         additional_dependencies:
           - tomli
